@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Online Examination System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Online Examination System</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html" class="active">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>User Login</h2>
+    <form action="#" method="post">
+      <label for="role">Select Role:</label>
+      <select id="role" name="role" required>
+        <option value="">-- Choose Role --</option>
+        <option value="student">Student</option>
+        <option value="examiner">Examiner</option>
+        <option value="admin">Administrator</option>
+      </select>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <button type="submit" class="btn">Login</button>
+      <p>Don’t have an account? <a href="register.html">Register here</a></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Online Examination System | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
